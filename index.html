@@ -6,148 +6,18 @@
 
         <!-- Link to socials icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/c6b72a1844.js" crossorigin="anonymous"></script>
 
-        <!-- Styles of the different sections -->
-        <style>
-            .fa {
-                padding: 20px;
-                font-size: 30px;
-                width: 50px;
-                text-align: center;
-                text-decoration: none;
-                margin: 5px 2px;
-            }
-
-            .fa-brands {
-                padding: 20px;
-                font-size: 30px;
-                width: 50px;
-                text-align: center;
-                text-decoration: none;
-                margin: 5px 2px;
-            }
-
-            body,h1,h2,h3,h4,h5,h6 {
-                font-family: Arial, Helvetica, sans-serif
-            }
-
-            .flexContainer{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .flexContainer > div {
-                margin: 10px;
-            }
-
-            body{
-                background-color: rgb(242, 238, 234);
-            }
-
-            .header{
-                padding: 40px;
-                text-align: center;
-                font-size: 40px;
-            }
-            
-            .IntroImage{
-                text-align: center;
-                width: 500px;
-                height: 500px;
-                border-radius: 50%;
-            }
-
-            .Intro{
-                text-align: center;
-                margin: auto;
-                width: 700px;
-                font-size: 40px;
-            }
-
-            .AboutMe{
-                text-align: center;
-                margin: auto;
-                width: 1200px;
-                padding: 20px;
-                font-size: 30px;
-            }
-
-            .PublishedVideo{
-                text-align: center;
-                margin: auto;
-                width: 600px;
-                padding: 20px;
-                font-size: 30px;
-            }
-
-            .Published{
-                text-align: center;
-                margin: auto;
-                width: 600px;
-                height: 400px;
-                padding: 0px;
-                font-size: 30px;
-            }
-
-            .AcademicMedia{
-                text-align: center;
-                margin: auto;
-                width: 600px;
-                padding: 20px;
-                font-size: 30px;
-            }
-
-            .Academic{
-                text-align: center;
-                margin: auto;
-                width: 600px;
-                height: 400px;
-                padding: 0px;
-                font-size: 30px;
-            }
-
-            .title{
-                text-align: center;
-                margin: auto;
-                width: 1200px;
-                padding: 20px;
-                font-size: 30px;
-            }
-
-            .link{
-                text-align: center;
-                margin: auto;
-                width: 100px;
-                padding: 40px;
-            }
-
-            .fa-at{
-                background: rgb(242, 238, 234);
-                color: blue;
-            }
-            .fa-github{
-                background: rgb(242, 238, 234);
-                color: blue;
-            }
-            .fa-linkedin{
-                background: rgb(242, 238, 234);
-                color: blue;
-            }
-            .fa-itch-io{
-                background: rgb(242, 238, 234);
-                color: blue;
-            }
-
-        </style>
     </head>
 
     <body>
         <!-- Main Title -->
-        <div class = "header">
-            <h1> Tom Jackson </h1>
-            <div class = "flexContainer">
+        <div class = "header" id = "titleBar">
+            <div class = "nameTitle">
+                <h1> Tom Jackson </h1>
+            </div>
+            <div class = "socials">
                 <div class = "link">
                     <a href="mailto:tom.jackson1711@gmail.com" class="fa fa-at"></a>
                 </div>
@@ -160,10 +30,11 @@
                 <div class = "link">
                     <a href="#" class="fa-brands fa-itch-io"></a>
                 </div>
-            </div>
+            </div>  
         </div>
+
         <!-- Introduction Section -->
-        <div class = "flexContainer">
+        <div class = "introduction">
             <div class = "IntroImage">
                 <img class = "IntroImage" src="Me.jpg" style="width: 100%;">
             </div>
@@ -193,12 +64,12 @@
             </div>
         </div>
         <!-- Published Work Section -->
-        <div class = "flexContainer">
+        <div class = "games">
             <div class = "title">
                 <h2>Published Work</h2>
             </div>
         </div>
-        <div class = "flexContainer">
+        <div class = "games">
             <div class = "PublishedVideo">
                 <iframe width="600" height="400" src="https://www.youtube.com/embed/5K6N6S28AOY?si=DgN0LiFQy9Ep5esb"></iframe>
             </div>
@@ -229,12 +100,12 @@
             </div>
         </div>
         <!-- Current Undergoing Work Section -->
-        <div class = "flexContainer">
+        <div class = "games">
             <div class = "title">
                 <h2>Current Work</h2>
             </div>
         </div>
-        <div class = "flexContainer">
+        <div class = "games">
             <div class = "AcademicMedia">
                 <video width="600" height="400" controls>
                     <source src="pirates.mp4" type="video/mp4">
@@ -248,7 +119,6 @@
                 </p>
             </div>
         </div>
-
 
     </body>
 </html>
