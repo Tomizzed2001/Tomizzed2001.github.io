@@ -30,6 +30,13 @@ body,h1,h2,h3,h4,h5,h6 {
     padding-bottom: 30px;
 }
 
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
 /*Header and Icons*/
 .fa {
     padding: 0px;
@@ -165,11 +172,10 @@ body,h1,h2,h3,h4,h5,h6 {
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(47, 45, 44);
-    padding-bottom: 40px;
 }
 
 .published > div{
-    padding-bottom: 0px;
+    padding-bottom: 40px;
 }
 
 .publishedTitle{
@@ -181,60 +187,70 @@ body,h1,h2,h3,h4,h5,h6 {
 .publishedVideo{
     text-align: center;
     width: 600px;
-    padding: 20px;
     padding-right: 40px;
+    padding-left: 40px;
 }
 
 .publishedText{
     text-align: left;
     width: 600px;
-    height: 400px;
-    padding: 0px;
     font-size: 25px;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 /*Graphics Masters Work*/
-
-
-.games{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(47, 45, 44);
-}
-
-.flexContainer{
+.academic{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.flexContainer > div {
-    margin: 10px;
+.academic > div{
+    padding-bottom: 40px;
 }
 
-.AcademicMedia{
+.academicTitle{
     text-align: center;
-    margin: auto;
-    width: 600px;
-    padding: 20px;
-    font-size: 30px;
-}
-
-.Academic{
-    text-align: center;
-    margin: auto;
-    width: 600px;
-    height: 400px;
-    padding: 0px;
-    font-size: 30px;
-}
-
-.title{
-    text-align: center;
-    margin: auto;
+    font-size: 40px;
     width: 1200px;
-    padding: 20px;
-    font-size: 30px;
+}
+
+.academicImage{
+    text-align: center;
+    width: 600px;
+    padding: 40px;
+}
+
+.academicText{
+    text-align: left;
+    width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.academicExtra{
+    text-align: center;
+    width: 1280px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.academicSkills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.academicList{
+    text-align: left;
+    width: 400px;
+    height: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
 }

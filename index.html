@@ -36,7 +36,7 @@
         <!-- Introduction Section -->
         <div class = "titleDark">
             <div class = "introTitle">
-                Hi there!   
+                <b>Hi there!</b>   
             </div>
         </div>
         <div class = "introduction">
@@ -57,10 +57,10 @@
             </div>
         </div>
 
-        <!-- About Me Section -->
+        <!-- Languages, APIs and Tools Section -->
         <div class = "titleLight">
             <div class = "backgroundTitle">
-                Languages, APIs and Tools  
+                <b>Languages, APIs and Tools</b>
             </div>
         </div>
         <div class = "background">
@@ -106,67 +106,109 @@
         <!-- Published Work Section -->
         <div class = "titleDark">
             <div class = "publishedTitle">
-                Published Work
+                <b>Published Work</b>
             </div>
         </div>
         <div class = "published">
-            <div class = "publishedVideo">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/SlR248MR4QU?si=pHqrdnA-2SVJ6VVM"></iframe>
-            </div> 
-            <div class = "publishedText">
-                <h3 style="text-align: center;">Washed Up</h3>
-                Washed Up is a game made in Unity for my 3rd year dissertation project during my undergrad.
-                <ul>
-                    <li>Made with Unity</li>
-                    <li>URP lighting</li>
-                    <li>Binary formatted save files</li>
-                    <li>Singleton game managers</li>
-                    <li>Code coverage & Unit tests</li>
-                </ul>
-                <b>Available at:</b>
-                <a href="https://github.com/Tomizzed2001/WashedUp-Unity" style="color: rgb(150, 255, 255);">Github source code</a>
-                 or 
-                 <a href="https://trappedcatgames.itch.io/washed-up" style="color: rgb(150, 255, 255);">Itch.io download</a>
-            
-            </div>
-        </div>
-        <!-- Academic Work Section -->
-        <div class = "flexContainer">
-            <div class = "title">
-                <h2>Academic Work</h2>
-            </div>
-        </div>
-        <div class = "flexContainer">
-            <div class = "AcademicMedia">
-                <img src="Shadows.png" style="width: 100%;">     
-            </div>
-            <div class = "Academic">
-                <h3>Vulkan Renderer</h3>
-                <p>
-                    Washed Up is a game made in Unity for my 3rd year dissertaion project in my undergrad.
-                </p>
-            </div>
-        </div>
-        <!-- Current Undergoing Work Section -->
-        <div class = "games">
-            <div class = "title">
-                <h2>Current Work</h2>
-            </div>
-        </div>
-        <div class = "games">
-            <div class = "AcademicMedia">
-                <video width="600" height="400" controls>
-                    <source src="pirates.mp4" type="video/mp4">
-                </video>   
-            </div>
-            <div class = "Academic">
-                <h3>Plundering Pirates</h3>
-                <p>
-                    This is WashedUp a game made in Unity for my final year computer science project at the University of York.
-                    To download and play the game click on releases on Github and download the file. After downloading the .zip make sure to unzip the folder and then run the .exe file located in there.
-                </p>
+            <div class="block">
+                <div class = "publishedVideo">
+                    <iframe width="600" height="400" src="https://www.youtube.com/embed/SlR248MR4QU?si=pHqrdnA-2SVJ6VVM"></iframe>
+                </div> 
+                <div class = "publishedText">
+                    <h3 style="text-align: center;">Washed Up</h3>
+                    Washed Up is a game made in Unity for my 3rd year dissertation project 
+                    during my undergrad.
+                    <ul>
+                        <li>Made with Unity</li>
+                        <li>URP lighting</li>
+                        <li>Binary formatted save files</li>
+                        <li>Singleton game managers</li>
+                        <li>Code coverage & Unit tests</li>
+                    </ul>
+                    <b>Available at:</b>
+                    <a href="https://github.com/Tomizzed2001/WashedUp-Unity" style="color: rgb(150, 255, 255);">Github source code</a>
+                    or 
+                    <a href="https://trappedcatgames.itch.io/washed-up" style="color: rgb(150, 255, 255);">Itch.io download</a>
+                
+                </div>
             </div>
         </div>
 
+        <!-- Academic Work Section -->
+        <div class = "titleLight">
+            <div class = "academicTitle">
+                <b>Graphics Work</b>
+            </div>
+        </div>
+        <div class = "academic">
+            <div class="block">
+                <h3 style="text-align: center; font-size: 25px; width: 100%;">High-Performance Graphics MSc</h3>
+                <div class="academicExtra">
+                    <p style="padding: 0px; margin: 0px;">
+                        Aside from the projects completed for my masters degree showcased here,
+                        my time at Leeds University has covered a substantial area of computer graphics.
+                        Below is a bullet pointed list showing some of the key tasks completed as part of
+                        my postgraduate degree.
+                    </p>
+                    <p style="padding-bottom: 0px; margin-bottom: 0px;">
+                        <b>Dissertation:</b> Low-poly mesh generation with marching cubes
+                    </p>
+                </div>
+                <div class="academicSkills">
+                    <div class="academicList">
+                        <ul>
+                            <li>Mesh repair and subdivision</li>
+                            <li>UV texture mapping</li>
+                            <li>Bump / displacement mapping</li>
+                            <li>Preprocessing & postprocessing</li>
+                        </ul>
+                    </div>
+                    <div class="academicList">
+                        <ul>
+                            <li>Collision & response physics</li>
+                            <li>Skeletal Animation</li>
+                            <li>Raytracing & Pathtracing</li>
+                            <li>Parallel computation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class = "academicImage">
+                    <img src="Shadows.png" style="width: 100%; border-radius: 5%;">     
+                </div>
+                <div class = "academicText">
+                    <h3 style="text-align: center;">Vulkan Renderer</h3>
+                    This is a real-time graphics renderer built using the Vulkan API and C++. It supports the following:
+                    <ul>
+                        <li>Alpha masking</li>
+                        <li>Tone Mapping</li>
+                        <li>Lighting bloom</li>
+                        <li>Blinn Phong shading</li>
+                        <li>Directional shadows (using shadowmaps)</li>
+                        <li>Baking of scene data</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block">
+                <div class = "academicImage">
+                    <img src="AireEngine.gif" style="width: 100%; border-radius: 5%;">     
+                </div>
+                <div class = "academicText">
+                    <h3 style="text-align: center; margin-bottom: 0px;">The Aire Engine</h3>
+                    <h6 style="text-align: center; margin-top: 0px; margin-bottom: 10px;">(Finalist for the Game Technology award at the Game Republic Student Showcase 2024)</h6>
+                    An open world game engine built as part of a group.
+                    My contributions consist of:
+                    <ul>
+                        <li>Project manager & presenter</li>
+                        <li>Custom collision system</li>
+                        <li>Player movement & camera view</li>
+                        <li>Configuration file management</li>
+                    </ul>
+                    The full project can be found here:  
+                    <a href="https://github.com/Tomizzed2001/WashedUp-Unity" style="color: rgb(150, 255, 255);">Gitlab Repository</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
