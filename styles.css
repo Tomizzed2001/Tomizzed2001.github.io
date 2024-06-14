@@ -187,11 +187,11 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .publishedText{
-    text-align: center;
+    text-align: left;
     width: 600px;
     height: 400px;
     padding: 0px;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 40px;
 }
 
