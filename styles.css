@@ -47,6 +47,9 @@ body,h1,h2,h3,h4,h5,h6 {
     background: #555;
     color: white;
 }
+.fa:hover{
+    color: rgb(150, 255, 255);
+}
 .fa-brands {
     padding: 0px;
     font-size: 30px;
@@ -55,6 +58,9 @@ body,h1,h2,h3,h4,h5,h6 {
     text-decoration: none;
     background: #555;
     color: white;
+}
+.fa-brands:hover{
+    color: rgb(150, 255, 255);
 }
 .header{
     background: #555;
@@ -262,7 +268,7 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .about > div{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .aboutTitle{
@@ -277,6 +283,21 @@ body,h1,h2,h3,h4,h5,h6 {
     padding-left: 40px;
     padding-right: 40px;
     font-size: 25px;
+}
+
+.cv:link, .cv:visited{
+    background-color: #1cb28a;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.cv:hover, cv:active{
+    background-color: #158b6c;
 }
 
 /*Footer Text*/
